@@ -9,6 +9,11 @@
 body{
     overflow-x: hidden;
 }
+a{
+    text-decoration: none;
+    display: inline-block;
+    color:rgb(90, 85, 85);
+}
 
 /* .........................header section start................................. */
 
@@ -101,23 +106,29 @@ header{
   
     
 }
-.nav-right ul li:last-child{
+
+
+
+.nav-right ul li:last-child {
     background-color: red;
-    color:white;
+    color:white ;
     transition: .5s;
     font-weight: 500;
     padding: 20px 18px; 
 }
-.nav-right ul li:last-child:hover{
+.nav-right ul li:last-child:hover {
     color:rgb(83, 81, 81);
     padding:18px 16px;
     background-color: transparent;
     border: 2px solid red;
 
 }
-.nav-right ul li:hover{
+.nav-right ul li a:hover{
     color:red
 }
+.seminar:hover a{color:red;}
+.seminar  a  {color:white;}
+
 /* .........................navbar ends here................................. */
 
 /* .........................banner  starts here................................. */
