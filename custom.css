@@ -1,0 +1,227 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* .........................header section start................................. */
+
+.container {
+    width: 1150px;
+    /* background-color: aquamarine; */
+   
+    margin: auto;
+    position: relative; 
+     display: flex;
+     align-items: center;
+
+}
+
+header{
+    width:  100vw;
+   
+    background-color: #ee2e24;
+    display: flex;
+    color:white;
+   
+    align-items: center;
+    
+}
+
+.left{
+   width: 20%;
+   padding: 6px 0 ;
+
+}
+.right{
+    width: 80%;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px 0 0 0;
+  
+
+
+}
+
+/* .........................header section end................................. */
+
+
+/* .........................navbar starts here................................. */
+
+ nav{
+     width: 100vw;
+ 
+     /* background-color: rgb(243, 237, 237); */
+     position: relative;
+     /* padding: 10px 0; */
+     margin-top: 10px;
+   
+ }
+ nav h1{
+     display: inline-block;
+     font-size: 23px;
+     position: absolute;
+     line-height: 50px;
+     font-weight: 600;
+     margin-left: 10px;
+     color:rgb(90, 85, 85)
+
+     
+
+
+ }
+
+ .nav-left{
+     width: 30%;  
+
+ }
+
+ .nav-right{
+     width: 70%;
+     font-size: 17px;
+     display: flex;
+     position: relative;
+     justify-content: flex-end;
+ }
+ .nav-right ul{
+    list-style-type: none;
+    
+ }
+.nav-right ul li{
+    display: inline-block;
+    margin-left: 15px; 
+     padding: 20px 5px;
+   
+  
+    
+}
+.nav-right ul li:last-child{
+    background-color: red;
+    color:white;
+    transition: .5s;
+    font-weight: 500;
+    padding: 20px 18px; 
+}
+.nav-right ul li:last-child:hover{
+    color:rgb(83, 81, 81);
+    padding:18px 16px;
+    background-color: transparent;
+    border: 2px solid red;
+
+}
+.nav-right ul li:hover{
+    color:red
+}
+/* .........................navbar ends here................................. */
+
+/* .........................banner  starts here................................. */
+
+#banner {
+
+background-image: url('./img/banner.webp');
+background-size: cover;
+height: 400px;
+background-color: rebeccapurple;
+}
+
+
+/* .........................banner  ends here................................. */
+
+/* .........................about us starts here................................. */
+#about{
+  margin: 100px auto;
+  
+  
+}
+.about-left{
+
+    width: 40%;
+
+}
+.about-left img{
+    width: 100%;
+   
+   position: relative;
+   top: 0;
+}
+
+.about-right{
+   
+    /* padding-top: 20px 0; */
+    padding-left: 50px;
+    width: 60%;
+    font-size: 18px;
+    color: rgba(85, 86, 87, 0.87);
+   
+   
+   
+
+}
+.about-right h3{
+    color:rgba(58, 57, 57, 0.815);
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+   
+}
+
+
+
+/* .........................about us ends here................................. */
+#schedule{
+   
+    
+    text-align: center;
+}
+
+#schedule h2{
+    font-weight: 500;
+    background-color: rgb(233, 227, 227);
+    width: 100vw;
+    padding:10px 0;
+    color: rgba(58, 57, 57, 0.815);
+}
+.table{
+    width: 100%;
+    font-size: 18px;
+    table-layout: fixed;
+    margin: 40px 0;
+  
+ 
+}
+.table th{
+    color:white;
+    font-weight: 500;
+    /* background-color: #383737; */
+    background-color: #313446;
+    padding: 10px 10px;
+    
+}
+.table tr button{
+    background-color: rgb(48, 46, 49);
+    border: none;
+    padding: 10px 30px;
+    color:white;
+    border-radius: 10px;
+    transition: .5s;
+
+}
+.table tr button:hover{
+    background-color: transparent;
+    border:2px solid rgb(48, 47, 47);
+    color:rgb(48, 47, 47);
+}
+.table td{
+    padding: 10px 10px;
+}
+tr:nth-child(odd){
+    background-color:rgba(131, 129, 129, 0.452);
+}
+
+
